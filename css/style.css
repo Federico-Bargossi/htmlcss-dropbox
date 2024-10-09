@@ -5,7 +5,7 @@
 }
 img{
     width: 100%;
-}
+} 
 
 
 /* HEADER */
@@ -29,7 +29,7 @@ img{
 /* HERO */
 .hero{
     background-color:hsl(205.2deg 50% 80.39%) ;
-    height: 600px;
+    height: 550px;
     padding: 30px 0;
 
 
@@ -46,7 +46,7 @@ img{
 }
 
 .titolo{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .head-block{
@@ -70,7 +70,7 @@ img{
 
 .main-container{
     width: 70%;
-    height: 4000px;
+    height: 2400px;
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 70px;
@@ -123,7 +123,6 @@ img{
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
-    row-gap: 15px;
     flex-wrap: wrap;
 }
 
@@ -134,4 +133,30 @@ img{
 
     border: 2px solid blue; 
  
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.row-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    row-gap: 15px;
+}
+
+.col-foot{
+    width:150px;
+    height: 300px;
+
+    border: 1px blue solid;
 }
