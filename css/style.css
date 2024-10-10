@@ -323,8 +323,20 @@ hr{
 }
 
 .col-foot{
-    width:150px;
+    width:250px;
     height: 300px;
 
-    border: 1px blue solid;
+    
+}
+
+.tit-foot{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.list-foot{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
