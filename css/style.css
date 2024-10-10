@@ -159,17 +159,51 @@ hr{
 }
 
 .col-list-1{
-    padding: 15px 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
+}
+
+.giustificato{
+    display: flex;
+    gap:5px;
+}
+
+.bottone-col{
+    background-color: blue ;
+    color: white;
+    height: 35px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.simbolo{
+    color: blue;
+}
+
+.bott-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .col {
     width: calc(95% /3);
-    
+    padding: 15px 15px;
 
     border: 1px solid lightslategray; 
-    min-height: 500px; 
+    min-height: 700px; 
 }
 
 .card {
